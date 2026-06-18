@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Dhruvil Patel</title>
+
+  <link rel="stylesheet" href="css/style.css?v=3" />
+</head>
+<body id="dynamic-theme">
+  <video
+  id="weather-video"
+  autoplay
+  muted
+  loop
+  playsinline>
+</video>
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <h2 class="logo">Dhruvil</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="playground.html">Playground</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <a href="certificates.html">Certificates</a> 
+    
+    <!-- ✅ MATERIALS (GitHub Folder View) -->
+    <a 
+      href="https://github.com/pateldhruvil2008/college-website/tree/main/materials"
+      target="_blank"
+    >
+      Materials
+    </a>
+  </nav>
+  <button id="theme-toggle" class="theme-btn">🌙</button>
+</header>
+
+<!-- ===== ABOUT PAGE ===== -->
+<section class="about-page">
+  <div class="about-container">
+
+    <h1>About Me</h1>
+
+    <div class="about-dashboard">
+      <div class="about-profile-card">
+        <span class="about-label">Electrical Engineering Student</span>
+        <h2>Building a bridge between circuits and code.</h2>
+        <p>
+          I am pursuing Electrical Engineering at CSPIT, CHARUSAT, while
+          developing practical web skills through projects, GitHub work, and
+          continuous self-learning.
+        </p>
+        <a href="resume.pdf" class="btn" download>Download Resume</a>
+      </div>
+
+      <div class="about-quick-facts">
+        <div class="fact-card">
+          <span>Branch</span>
+          <strong>Electrical</strong>
+        </div>
+        <div class="fact-card">
+          <span>Institute</span>
+          <strong>CSPIT</strong>
+        </div>
+        <div class="fact-card">
+          <span>University</span>
+          <strong>CHARUSAT</strong>
+        </div>
+        <div class="fact-card">
+          <span>Focus</span>
+          <strong>Web + Tech</strong>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section overview-card">
+      <div>
+        <span class="about-label">Academic Overview</span>
+        <h2>Current Learning Status</h2>
+        <p id="semester-text">
+          <!-- Auto-updated by semester.js -->
+        </p>
+      </div>
+
+      <div class="semester-progress-box compact-progress">
+        <h2>Semester Progress</h2>
+
+        <div class="progress-info">
+          <span id="current-semester"></span>
+          <span id="progress-percent"></span>
+        </div>
+
+        <div class="progress-bar">
+          <div id="progress-fill"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section journey-section">
+      <span class="about-label">My Journey</span>
+      <h2>Education Timeline</h2>
+
+      <div class="timeline journey-timeline">
+        <div class="timeline-item">
+          <span>2022 - 2024</span>
+          <h3>Science / Engineering Background</h3>
+          <p>Built a strong base for technical and engineering studies.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span>2025 - Present</span>
+          <h3>B.Tech - Electrical Engineering</h3>
+          <p>CSPIT, Charotar University of Science and Technology.</p>
+        </div>
+
+        <div class="timeline-item">
+          <span>Now</span>
+          <h3>Web Development Practice</h3>
+          <p>Learning HTML, CSS, JavaScript, Git, and responsive design.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section">
+      <span class="about-label">What I Work On</span>
+      <h2>Skills & Learning Areas</h2>
+
+      <div class="focus-grid">
+        <div class="focus-card">
+          <h3>Electrical Basics</h3>
+          <p>Basic circuits, measurements, network theory, and engineering mathematics.</p>
+        </div>
+
+        <div class="focus-card">
+          <h3>Web Development</h3>
+          <p>HTML5, CSS3, beginner JavaScript, responsive layouts, and UI practice.</p>
+        </div>
+
+        <div class="focus-card">
+          <h3>Tools</h3>
+          <p>Git, GitHub, project deployment, and portfolio maintenance.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section achievements-panel">
+      <span class="about-label">Progress</span>
+      <h2>Achievements & Learning</h2>
+      <div class="achievement-grid">
+        <p>Built and deployed a personal portfolio website</p>
+        <p>Hands-on experience with Git and GitHub</p>
+        <p>Continuous learner in web development</p>
+        <p>Actively improving academic and technical skills</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="stats-card">
+
+  <h2>📊 Portfolio Stats</h2>
+
+  <p>
+    👁 Total Visitors
+  </p>
+
+  <img
+    src="https://visitor-badge.laobi.icu/badge?page_id=dhruvilpatel2008.portfolio"
+    alt="Visitors"
+  >
+
+</section>
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2026 Dhruvil Patel. All rights reserved.</p>
+  
+
+</footer>
+<!-- Chatbot Button -->
+<div id="chat-btn">
+  <div class="ai-orb">
+    <span class="orb-icon">⚡</span>
+  </div>
+  <span class="chat-tooltip">Ask Dhruvil AI</span>
+</div>
+
+<!-- Chatbot Box -->
+<div id="chat-box">
+  <div class="chat-header">
+
+  <span>Dhruvil AI ⚡</span>
+
+  <button onclick="clearChat()" class="clear-chat-btn">
+    🗑
+  </button>
+
+</div>
+
+  <div id="chat-messages">
+    <div class="bot-msg">
+      Hello! Choose an option 👇
+    </div>
+
+    <button onclick="askQuestion('about')">About Me</button>
+    <button onclick="askQuestion('skills')">Skills</button>
+    <button onclick="askQuestion('projects')">Projects</button>
+    <button onclick="askQuestion('contact')">Contact</button>
+  </div>
+
+  <div class="chat-input">
+    <input type="text" id="userInput" placeholder="Ask a question...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+<!-- ===== JS ===== -->
+ <script src="js/script.js"></script>
+<!-- ===== JS FILES ===== -->
+<script src="js/darkmode.js"></script>
+<script src="js/semester.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/view-counter.js"></script>
+
+
+</body>
+</html>

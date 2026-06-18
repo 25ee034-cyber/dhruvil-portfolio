@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Code Playground | Dhruvil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css?v=4">
+</head>
+<body id="dynamic-theme">
+<video
+  id="weather-video"
+  autoplay
+  muted
+  loop
+  playsinline>
+</video>
+<header class="navbar">
+  <h2 class="logo">Dhruvil</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="playground.html" class="active">Playground</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <a href="certificates.html">Certificates</a>
+    
+    <!-- ✅ MATERIALS (GitHub Folder View) -->
+    <a 
+      href="https://github.com/pateldhruvil2008/college-website/tree/main/materials"
+      target="_blank"
+    >
+      Materials
+    </a>
+  </nav>
+  <button id="theme-toggle" class="theme-btn">🌙</button>
+</header>
+
+<section class="playground">
+
+  <div class="playground-hero">
+    <div>
+      <span class="about-label">Live Coding Lab</span>
+      <h1>Frontend Code Playground</h1>
+      <p class="subtitle">Write HTML, CSS and JavaScript, then preview the result instantly.</p>
+    </div>
+
+    <div class="playground-actions">
+      <button class="tool-btn primary-tool" onclick="runCode()">Run</button>
+      <button class="tool-btn" onclick="loadStarterCode()">Demo</button>
+      <button class="tool-btn" onclick="clearPlayground()">Clear</button>
+    </div>
+  </div>
+
+  <div class="editor-container">
+
+    <div class="editors">
+      <div class="editor-topbar">
+        <div class="window-dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <strong>Dhruvil Playground</strong>
+      </div>
+
+      <div class="code-pane">
+        <div class="file-tab">index.html</div>
+        <textarea id="html-code" spellcheck="false" placeholder="Write HTML here"></textarea>
+      </div>
+
+      <div class="code-pane">
+        <div class="file-tab">style.css</div>
+        <textarea id="css-code" spellcheck="false" placeholder="Write CSS here"></textarea>
+      </div>
+
+      <div class="code-pane">
+        <div class="file-tab">script.js</div>
+        <textarea id="js-code" spellcheck="false" placeholder="Write JavaScript here"></textarea>
+      </div>
+    </div>
+
+    <div class="output">
+      <div class="preview-bar">
+        <span>Live Preview</span>
+        <strong id="preview-status">Ready</strong>
+      </div>
+      <iframe id="output-frame"></iframe>
+    </div>
+
+  </div>
+
+</section>
+<!-- Chatbot Button -->
+<div id="chat-btn">
+  <div class="ai-orb">
+    <span class="orb-icon">⚡</span>
+  </div>
+  <span class="chat-tooltip">Ask Dhruvil AI</span>
+</div>
+
+<!-- Chatbot Box -->
+<div id="chat-box">
+  <div class="chat-header">
+
+  <span>Dhruvil AI ⚡</span>
+
+  <button onclick="clearChat()" class="clear-chat-btn">
+    🗑
+  </button>
+
+</div>
+
+  <div id="chat-messages">
+    <div class="bot-msg">
+      Hello! Choose an option 👇
+    </div>
+
+    <button onclick="askQuestion('about')">About Me</button>
+    <button onclick="askQuestion('skills')">Skills</button>
+    <button onclick="askQuestion('projects')">Projects</button>
+    <button onclick="askQuestion('contact')">Contact</button>
+  </div>
+
+  <div class="chat-input">
+    <input type="text" id="userInput" placeholder="Ask a question...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+<!-- ===== JS ===== -->
+ <script src="js/script.js"></script>
+<script src="js/darkmode.js"></script>
+<script src="js/playground.js"></script>
+
+</body>
+</html>

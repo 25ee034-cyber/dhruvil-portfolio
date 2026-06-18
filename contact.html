@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Dhruvil Patel</title>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body id="dynamic-theme">
+  <video
+  id="weather-video"
+  autoplay
+  muted
+  loop
+  playsinline>
+</video>
+<div class="animated-bg"></div>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <h2 class="logo">Dhruvil</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="playground.html">Playground</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="certificates.html">Certificates</a>
+    
+    <a 
+      href="https://github.com/pateldhruvil2008/college-website/tree/main/materials"
+      target="_blank"
+    >
+      Materials
+    </a>
+  </nav>
+  <button id="theme-toggle" class="theme-btn">🌙</button>
+</header>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section class="page contact-page">
+  <h1>Contact Me</h1>
+  <p class="contact-subtitle">Feel free to reach out to me anytime</p>
+
+  <!-- CONTACT LINKS -->
+  <div class="contact-box">
+
+    <!-- Email + Copy -->
+    <div class="contact-item">
+      <i class="fa-solid fa-envelope"></i>
+      <span id="email-text">dhruvil2008patel@gmail.com</span>
+      <button class="copy-btn" onclick="copyEmail()">Copy</button>
+    </div>
+
+    <!-- WhatsApp -->
+    <a 
+      href="https://wa.me/919586920797" 
+      target="_blank" 
+      class="contact-item"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>WhatsApp Me</span>
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/_dhruvil_22_05/" target="_blank" class="contact-item">
+      <i class="fa-brands fa-instagram"></i>
+      <span>@_dhruvil_22_05</span>
+    </a>
+
+    <!-- GitHub -->
+    <a href="https://github.com/dhruvilpatel2008" target="_blank" class="contact-item">
+      <i class="fa-brands fa-github"></i>
+      <span>github.com/dhruvilpatel2008</span>
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/dhruvil-patel-48ab1a374" target="_blank" class="contact-item">
+      <i class="fa-brands fa-linkedin"></i>
+      <span>linkedin.com/in/dhruvil-patel</span>
+    </a>
+
+  </div>
+<p class="whatsapp-info">
+  📲 This message will be sent via <strong>WhatsApp</strong>
+</p>
+
+  <!-- CONTACT FORM -->
+  <form class="contact-form" onsubmit="sendMessage(event)">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</section>
+
+<!-- TOAST -->
+<div id="toast">Message Sent ✔</div>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2026 Dhruvil Patel. All rights reserved.</p>
+  <p id="view-counter">👁️ Visitors: Loading...</p>
+
+</footer>
+<!-- Chatbot Button -->
+<div id="chat-btn">
+  <div class="ai-orb">
+    <span class="orb-icon">⚡</span>
+  </div>
+  <span class="chat-tooltip">Ask Dhruvil AI</span>
+</div>
+
+<!-- Chatbot Box -->
+<div id="chat-box">
+  <div class="chat-header">
+
+  <span>Dhruvil AI ⚡</span>
+
+  <button onclick="clearChat()" class="clear-chat-btn">
+    🗑
+  </button>
+
+</div>
+
+  <div id="chat-messages">
+    <div class="bot-msg">
+      Hello! Choose an option 👇
+    </div>
+
+    <button onclick="askQuestion('about')">About Me</button>
+    <button onclick="askQuestion('skills')">Skills</button>
+    <button onclick="askQuestion('projects')">Projects</button>
+    <button onclick="askQuestion('contact')">Contact</button>
+  </div>
+
+  <div class="chat-input">
+    <input type="text" id="userInput" placeholder="Ask a question...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+<!-- ===== JS ===== -->
+ <script src="js/script.js"></script>
+<script src="js/darkmode.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/view-counter.js"></script>
+
+</body>
+</html>

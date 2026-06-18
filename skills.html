@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills | Dhruvil Patel</title>
+  <link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body id="dynamic-theme">
+  <video
+    id="weather-video"
+    autoplay
+    muted
+    loop
+    playsinline>
+  </video>
+  <div class="animated-bg"></div>
+
+<header class="navbar">
+  <h2 class="logo">Dhruvil</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html" class="active">Skills</a>
+    <a href="playground.html">Playground</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <a href="certificates.html">Certificates</a>
+    
+    <!-- ✅ MATERIALS (GitHub Folder View) -->
+    <a 
+      href="https://github.com/pateldhruvil2008/college-website/tree/main/materials"
+      target="_blank"
+    >
+      Materials
+    </a>
+  </nav>
+  <button id="theme-toggle" class="theme-btn">🌙</button>
+</header>
+
+<section class="skills-page">
+  <div class="skills-container">
+    <div class="skills-hero">
+      <div>
+        <span class="about-label">Skills Dashboard</span>
+        <h1>Technical Skills</h1>
+        <p>
+          A practical mix of electrical engineering fundamentals, web
+          development basics, and tools I use while building and improving this
+          portfolio.
+        </p>
+      </div>
+
+      <div class="skills-summary">
+        <div>
+          <strong>08+</strong>
+          <span>Core Skills</span>
+        </div>
+        <div>
+          <strong>03</strong>
+          <span>Focus Areas</span>
+        </div>
+        <div>
+          <strong>Live</strong>
+          <span>Portfolio Practice</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-category-grid">
+      <div class="skill-category-card">
+        <span>01</span>
+        <h2>Web Development</h2>
+        <p>HTML5, CSS3, JavaScript basics, responsive layouts, and UI styling.</p>
+      </div>
+
+      <div class="skill-category-card">
+        <span>02</span>
+        <h2>Electrical Engineering</h2>
+        <p>Basic circuits, network theory, electrical measurements, and maths.</p>
+      </div>
+
+      <div class="skill-category-card">
+        <span>03</span>
+        <h2>Developer Tools</h2>
+        <p>Git, GitHub, project organization, deployment, and version control.</p>
+      </div>
+    </div>
+
+    <div class="skills-panel roadmap-panel">
+      <div>
+        <span class="about-label">Learning Roadmap</span>
+        <h2>What I Am Improving Next</h2>
+      </div>
+
+      <div class="roadmap-grid">
+        <div>
+          <strong>JavaScript Practice</strong>
+          <p>DOM, events, forms, APIs, and small interactive projects.</p>
+        </div>
+        <div>
+          <strong>Better UI Design</strong>
+          <p>Clean layouts, spacing, colors, and responsive polish.</p>
+        </div>
+        <div>
+          <strong>Engineering Concepts</strong>
+          <p>Strengthening circuit analysis and electrical fundamentals.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Chatbot Button -->
+<div id="chat-btn">
+  <div class="ai-orb">
+    <span class="orb-icon">⚡</span>
+  </div>
+  <span class="chat-tooltip">Ask Dhruvil AI</span>
+</div>
+
+<!-- Chatbot Box -->
+<div id="chat-box">
+  <div class="chat-header">
+
+  <span>Dhruvil AI ⚡</span>
+
+  <button onclick="clearChat()" class="clear-chat-btn">
+    🗑
+  </button>
+
+</div>
+
+  <div id="chat-messages">
+    <div class="bot-msg">
+      Hello! Choose an option 👇
+    </div>
+
+    <button onclick="askQuestion('about')">About Me</button>
+    <button onclick="askQuestion('skills')">Skills</button>
+    <button onclick="askQuestion('projects')">Projects</button>
+    <button onclick="askQuestion('contact')">Contact</button>
+  </div>
+
+  <div class="chat-input">
+    <input type="text" id="userInput" placeholder="Ask a question...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+<!-- ===== JS ===== -->
+ <script src="js/script.js"></script>
+<script src="js/darkmode.js"></script>
+
+</body>
+</html>

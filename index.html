@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhruvil | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body id="dynamic-theme">
+<!-- Weather Background Video -->
+
+<video
+  id="weather-video"
+  autoplay
+  muted
+  loop
+  playsinline
+>
+  <source
+    src="videos/night.mp4"
+    type="video/mp4"
+  >
+</video>
+  
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <h2 class="logo">Dhruvil</h2>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="playground.html">Playground</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <a href="certificates.html">Certificates</a>
+    
+    <a
+      href="https://github.com/pateldhruvil2008/college-website/tree/main/materials"
+      target="_blank"
+    >
+      Materials
+    </a>
+  </nav>
+  <button id="theme-toggle" class="theme-btn">🌙</button>
+</header>
+
+<!-- ===== HERO WITH BACKGROUND VIDEO ===== -->
+<section class="video-hero reveal">
+
+
+  <!-- Background Video -->
+<!-- <video autoplay muted loop playsinline preload="metadata" class="bg-video">
+  <source src="videos/bg.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video> -->
+
+
+  <!-- Overlay
+  <div class="video-overlay"></div> -->
+
+  <!-- Content -->
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Hi, I'm <span>Dhruvil</span></h1>
+      <h3>Aspiring Web Developer</h3>
+      <p>
+        I am a college student passionate about building clean,
+        modern, and user-friendly websites.
+      </p>
+      <a href="projects.html" class="btn">🚀Projects</a>
+      <a href="certificates.html" class="btn btn-secondary">🏆Certificates</a>
+    
+  
+    </div>
+
+    <div class="hero-img">
+      <img src="images/image copy.png" alt="Profile">
+    </div>
+  </div>
+</section>
+
+<!-- ===== SEMESTER PROGRESS ===== -->
+<section class="semester-progress-wrapper reveal">
+  <div class="semester-progress-box">
+    <h2>Semester Progress</h2>
+
+    <div class="progress-info">
+      <span id="current-semester"></span>
+      <span id="progress-percent"></span>
+    </div>
+
+    <div class="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WELCOME TOAST ===== -->
+<div id="welcome-toast" class="welcome-toast">
+  👋 Welcome to Dhruvil’s Portfolio
+</div>
+
+<section class="stats-card">
+
+  <h2>📊 Portfolio Stats</h2>
+
+  <p>
+    👁 Total Visitors
+  </p>
+
+  <img
+    src="https://visitor-badge.laobi.icu/badge?page_id=dhruvilpatel2008.portfolio"
+    alt="Visitors"
+  >
+
+</section>
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>
+    © <span id="year"></span> Dhruvil ·
+    <span class="last-updated">
+      Last updated: <span id="lastUpdated"></span>
+    </span>
+  </p>
+</footer>
+<!-- Chatbot Button -->
+<div id="chat-btn">
+  <div class="ai-orb">
+    <span class="orb-icon">⚡</span>
+  </div>
+  <span class="chat-tooltip">Ask Dhruvil AI</span>
+</div>
+
+<!-- Chatbot Box -->
+<div id="chat-box">
+  <div class="chat-header">
+
+  <span>Dhruvil AI ⚡</span>
+
+  <button onclick="clearChat()" class="clear-chat-btn">
+    🗑
+  </button>
+
+</div>
+
+  <div id="chat-messages">
+    <div class="bot-msg">
+      Hello! Choose an option 👇
+    </div>
+
+    <button onclick="askQuestion('about')">About Me</button>
+    <button onclick="askQuestion('skills')">Skills</button>
+    <button onclick="askQuestion('projects')">Projects</button>
+    <button onclick="askQuestion('contact')">Contact</button>
+  </div>
+
+  <div class="chat-input">
+    <input type="text" id="userInput" placeholder="Ask a question...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+<!-- ===== JS ===== -->
+ <script src="js/script.js"></script>
+<script src="js/darkmode.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/view-counter.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/welcome.js"></script>
+<script src="js/last-updated.js"></script>
+
+</body>
+</html>
+<!-- git add .; git commit -m "Website Update"; git push old main --force; git push new main --force -->
