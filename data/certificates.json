@@ -163,5 +163,29 @@
     "experience": "The course provided a beginner-friendly introduction to Generative AI through real-world examples and practical insights from Google Cloud experts.",
     "impact": "This certification strengthened my understanding of modern AI technologies and inspired me to explore AI-powered solutions alongside my Electrical Engineering studies."
   }
+},
+{
+  "title": "Arduino For Beginners - 2023 Complete Course",
+  "issuer": "Packt & Coursera",
+  "date": "2026-06-23",
+  "image": "certificates/Arduino_For_Beginners_2023_Complete_Course.png",
+  "description": "Successfully completed the Arduino For Beginners - 2023 Complete Course authorized by Packt and offered through Coursera.",
+  "skills": [
+    "Arduino",
+    "Embedded Systems",
+    "Microcontrollers",
+    "Electronics",
+    "Sensors and Actuators",
+    "Circuit Design",
+    "Programming",
+    "Hardware Interfacing"
+  ],
+  "verifyUrl": "https://coursera.org/verify/PYVUJQNVE6JN",
+  "story": {
+    "why": "I enrolled in this course to build a strong foundation in Arduino programming and embedded systems, which are essential for Electrical Engineering, robotics, and IoT projects.",
+    "learned": "Arduino programming, microcontroller fundamentals, electronic components, sensor interfacing, actuator control, circuit building, and real-world hardware applications.",
+    "experience": "The course combined theoretical concepts with hands-on projects, helping me understand how hardware and software work together to create embedded systems.",
+    "impact": "This certification enhanced my practical electronics and programming skills, giving me the confidence to develop Arduino-based automation, robotics, and IoT projects."
+  }
 }
 ]
