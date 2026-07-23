@@ -187,5 +187,28 @@
     "experience": "The course combined theoretical concepts with hands-on projects, helping me understand how hardware and software work together to create embedded systems.",
     "impact": "This certification enhanced my practical electronics and programming skills, giving me the confidence to develop Arduino-based automation, robotics, and IoT projects."
   }
+},
+{
+  "title": "Smart Electrical Systems Using IoT Workshop",
+  "issuer": "Department of Electrical Engineering, CSPIT, CHARUSAT",
+  "date": "2026-07-18",
+  "image": "certificates/Smart_Electrical_Systems_Using_IoT.png",
+  "description": "Received a Certificate of Participation for actively participating in the workshop on 'Smart Electrical Systems using IoT' organized by the M & V Patel Department of Electrical Engineering, CSPIT, CHARUSAT.",
+  "skills": [
+    "Internet of Things (IoT)",
+    "Smart Electrical Systems",
+    "Embedded Systems",
+    "Automation",
+    "Electrical Engineering",
+    "ESP32",
+    "Arduino",
+    "Sensor Integration"
+  ],
+  "story": {
+    "why": "I attended this workshop to gain practical knowledge of how IoT technologies are transforming modern electrical systems and industrial automation.",
+    "learned": "IoT fundamentals, smart electrical system architecture, embedded hardware, sensor integration, wireless communication, and real-world automation applications.",
+    "experience": "The workshop provided valuable insights into modern IoT-based electrical solutions through technical sessions and practical examples conducted by the Electrical Engineering Department at CHARUSAT.",
+    "impact": "This workshop strengthened my understanding of IoT applications in electrical engineering and motivated me to build smart automation and monitoring projects using microcontrollers and sensors."
+  }
 }
 ]
