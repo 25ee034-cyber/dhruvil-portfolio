@@ -231,5 +231,27 @@
     "experience": "The quiz provided an engaging way to learn about nature conservation while challenging my knowledge and encouraging me to think critically about environmental issues.",
     "impact": "This experience increased my awareness of environmental responsibility and motivated me to become more conscious about sustainable practices and conservation."
   }
+},
+{
+  "title": "Creativity, Problem Solving and Innovation",
+  "issuer": "Charotar University of Science and Technology (CHARUSAT) & Coursera",
+  "date": "2026-08-29",
+  "image": "certificates/Creativity_Problem_Solving_and_Innovation.png",
+  "description": "Successfully completed the Creativity, Problem Solving and Innovation online course authorized by Charotar University of Science and Technology and offered through Coursera.",
+  "skills": [
+    "Creativity",
+    "Problem Solving",
+    "Innovation",
+    "Critical Thinking",
+    "Design Thinking",
+    "Analytical Thinking"
+  ],
+  "verifyUrl": "https://coursera.org/verify/EUB5G7TKK9T2",
+  "story": {
+    "why": "I enrolled in this course to improve my ability to approach challenges creatively, think critically, and develop innovative solutions to real-world problems.",
+    "learned": "Creative thinking techniques, structured problem-solving approaches, innovation concepts, critical thinking, and strategies for developing effective solutions.",
+    "experience": "The course helped me explore different ways of thinking and solving problems while connecting creativity and innovation with practical situations.",
+    "impact": "This certification strengthened my problem-solving and creative thinking abilities, which I can apply to engineering projects, technical challenges, and future innovation-focused work."
+  }
 }
 ]
