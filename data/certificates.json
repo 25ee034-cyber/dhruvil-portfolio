@@ -274,5 +274,28 @@
     "experience": "Participating in the online quiz was an engaging way to test my knowledge while learning about the role of young people in contributing to India's future.",
     "impact": "The experience increased my awareness of youth participation in national development and encouraged me to become more actively involved in initiatives that create positive social impact."
   }
+},
+{
+  "title": "Analog and Digital Electronics",
+  "issuer": "Charotar University of Science and Technology (CHARUSAT) & Coursera",
+  "date": "2026-09-13",
+  "image": "certificates/Analog_and_Digital_Electronics.png",
+  "description": "Successfully completed the Analog and Digital Electronics online course authorized by Charotar University of Science and Technology and offered through Coursera.",
+  "skills": [
+    "Analog Electronics",
+    "Digital Electronics",
+    "Electronic Circuits",
+    "Circuit Analysis",
+    "Semiconductor Devices",
+    "Logic Gates",
+    "Electrical Engineering Fundamentals"
+  ],
+  "verifyUrl": "https://coursera.org/verify/9IHNH9Z56A3Z",
+  "story": {
+    "why": "I enrolled in this course to strengthen my understanding of analog and digital electronics, which are fundamental areas of Electrical Engineering.",
+    "learned": "Analog and digital circuit concepts, electronic components, semiconductor devices, circuit analysis, digital logic, and fundamental electronic systems.",
+    "experience": "The course helped me connect theoretical electronics concepts with practical circuit applications and develop a stronger foundation in electronic system design.",
+    "impact": "This certification strengthened my core electronics knowledge and will support my future work in electrical engineering, embedded systems, robotics, automation, and hardware-based projects."
+  }
 }
 ]
